@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_borrow"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/borrow" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/search" />
+
+        <item
+            android:id="@+id/nav_borrowed_books"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:title="@string/borrowed"
+            />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/out"
+            />
+
+        <item
+            android:icon="@drawable/ic_baseline_map_24"
+            android:id="@+id/search_map"
+            android:title="@string/Search_map"
+            />
+    </group>
+</menu>
